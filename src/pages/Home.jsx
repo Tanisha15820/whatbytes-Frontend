@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 import { useCart } from "../context/CartContext.jsx";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL;
 
 export default function Home() {
   const [params] = useSearchParams();
